@@ -1,10 +1,9 @@
 #include <stdio.h>
-int main() {   
-    //Adding two numbers.
-    int number1, number2, sum;
-    printf("Enter two integers: ");
-    scanf("%d %d", &number1, &number2);
-    sum = number1 + number2;      
-    printf("%d + %d = %d", number1, number2, sum);
-    return 0;
+int main()
+{  
+    float val1,val2,outcome;
+    scanf("%f%f",&val1,&val2);
+    outcome=val1*val2;
+    printf("%.4f",outcome);
+	return 0;
 }
